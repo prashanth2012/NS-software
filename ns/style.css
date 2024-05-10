@@ -1,0 +1,534 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box ;
+}
+.head{
+    background-color: rgba(128, 128, 128, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 60px;
+    color: blue;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar-brand {
+    margin-top: 30px;
+}
+.navbar-nav {
+    margin-left: 300px;
+}
+.container {
+    height: 100px;
+    animation-name: animi2;
+    animation-duration: 4s;
+    animation-iteration-count: 1; 
+}
+@keyframes animi2{
+    from{
+    
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.navbar-nav li {
+    padding: 20px;
+}
+.navbar-nav li:hover{
+ text-decoration: underline;
+ text-decoration-color: black;
+ color: blue;
+}
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+   .container2{
+    background-image: url("./center.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    opacity: 1;
+    margin-top: 75px;
+    }
+  .container2 h1{
+    font-size: 70px;
+    padding-left: 70px;
+    padding-top: 30px;
+    color:white;
+    font-weight: bold;
+
+  }
+  .container2 p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+  .container2 button{
+    padding: 5px;
+    margin-left: 35% ;
+    color: white;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 0px 10px;
+
+  }
+  .container3{
+    display: flex;
+    padding-top: 10%;
+    align-items: center;
+  }
+  .container3-class1 h1 {
+    font-size: 40px;
+    padding-left: 10%;
+  }
+  .container3-class1 p{
+    padding-left: 10%;
+    font-size: 18px ;
+  }
+  .container3 button{
+    padding: 12px;
+    border-radius: 5px;
+    margin: 50px;
+    background-color: blueviolet;
+    margin-left: 25%;
+    color: white;
+
+  }
+  .container3-class2 img{
+    height: 500px;
+    width: 600px;
+  }
+  .container4 h1{
+    font-size: 35px;
+    justify-content: space-around;
+    margin-left: 20%;
+    color: blue;
+    font-weight: 900;
+   }
+  .container4 p{
+    margin-left: 15%;
+    font-size: 18px;
+  }
+  
+  .container5{
+    margin-left: 7%;
+
+  }
+  .hello{
+    border-radius: 10px;
+    background-color: grey;
+
+  }
+  .level1 {
+    background-color: rgba(0, 0, 255, 0.445);
+    width: 94%;
+    border-radius: 15px;
+    text-align: center;
+    animation-name: task;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+@keyframes task{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 94%;
+    }
+}
+  
+  .hello2{
+    border-radius: 10px;
+    background-color: grey;
+  }
+  .level2 {
+    background-color: rgba(0, 128, 0, 0.562);
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+    animation-name: task1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  @keyframes task1{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 90%;
+    }
+  }
+  .hello3{
+    border-radius: 10px;
+    background-color: grey;
+  }
+  .level3 {
+    background-color: rgba(255, 255, 0, 0.527);
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+    animation-name: task2;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  @keyframes task2{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 90%;
+    }
+}
+  .hello4{
+    border-radius: 10px;
+    background-color: grey;
+  }
+  .level4 {
+    background-color: violet;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    animation-name: task3;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  @keyframes task3{
+    from{
+        width: 0px;
+    }
+    to{
+        width:80%;
+    }}
+  .hello5{
+    border-radius: 10px;
+    background-color: grey;
+  }
+  .level5 {
+    background-color: rgba(255, 166, 0, 0.637);
+    width: 67%;
+    border-radius: 10px;
+    text-align: center;
+    animation-name: task4;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  @keyframes task4{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 67%;
+    }
+}
+  .paragraph p{
+    padding-left: 45%;
+    font-size: 50px;
+    color: rgba(3, 3, 39, 0.486);
+
+  }
+  .paragraph h1{
+    padding-left: 30%;
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.603);
+
+  }
+  .box1{
+    border: 5px solid black;
+    width: 350px;
+    transform: rotate(-30deg);
+    height: 300px;
+    margin: 25px;
+    background-color: rgb(212, 205, 205);
+    animation-name: animi;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+@keyframes animi{
+    from{
+        transform: rotate(30deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.box1:hover{
+    background-color:white;
+
+}
+.box1 h1{
+    font-size: 45px;
+    margin-left: 5%;
+}
+.box1 i{
+        
+    font-size: 60px;
+    margin-left: 40%;
+}
+.box1 p{
+    font-size: 15px;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: 70px;
+
+
+
+}
+
+.container7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    justify-content: center;
+    padding: 15px;
+
+}
+.container8 h1{
+    border: 1px solid black;
+    background-color: rgb(61, 56, 56);
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.container8{
+    margin-top: 15%;
+    margin-left: 20%;
+    animation-name: animi1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+
+}
+@keyframes animi1{
+    0%{
+        transform: translateX(-30%);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+}
+.container9{
+    display: flex;
+    align-items: center;
+    margin-left: 30%
+    }
+
+    .container9 i{
+        font-size: 40px;
+        padding: 25px;
+
+    }
+    .container9 h1{
+        font-size: 20px;
+    }
+    .container10{
+        display: flex;
+        align-items: center;
+        margin-left: 30%
+        }
+        .container10 i{
+            font-size: 40px;
+            padding: 25px;
+        }
+        .container10 h1{
+            font-size: 20px;
+        }
+        .container11{
+            display: flex;
+            align-items: center;
+            margin-left: 30%
+            }
+            .container11 i{
+                font-size: 40px;
+                padding: 25px;
+            }
+            .container11 h1{
+                font-size: 20px;
+            }
+            .container12{
+                display: flex;
+                align-items: center;
+                margin-left: 30%
+                }
+                .container12 i{
+                    font-size: 40px;
+                    padding: 25px;
+                }
+                .container12 h1{
+                    font-size: 20px;
+                }
+                .container13{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 30%
+                    }
+                    .container13 i{
+                        font-size: 40px;
+                        padding: 25px;
+                    }
+                    .container13 h1{
+                        font-size: 20px;
+                    }
+                    .container14{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 30%
+                        }
+                        .container14 i{
+                            font-size: 40px;
+                            padding: 25px;
+                        }
+                        .container14 h1{
+                            font-size: 20px;
+                        }
+                        
+                        .container15{
+                            display: flex;
+                            align-items: center;
+                            margin-left: 30%
+                            }
+                            .container15 i{
+                                font-size: 40px;
+                                padding: 25px;
+                            }
+                            .container15 h1{
+                                font-size: 20px;
+                            }
+                            .container16{
+                                display: flex;
+                                align-items: center;
+                                margin-left: 30%
+                                }
+                                .container16 i{
+                                    font-size: 40px;
+                                    padding: 25px;
+                                }
+                                .container16 h1{
+                                    font-size: 20px;
+                                }
+
+                                .btn button{
+                                    border: 5px solid gray;
+                                    border-top-left-radius: 35px;
+                                    border-bottom-right-radius: 35px;
+                                   background-color: rgb(38, 38, 156);
+                                    color: white;
+                                    font-size: 25px;
+                                    height: 90px;
+                                    width: 250px;
+                                    margin-left: 50px;
+                                    margin-bottom: -10px;
+                                }
+                                .btn button:hover{
+                                    background-color: white;
+                                    color: blue;
+                                }
+
+                                .btn1 button{
+                                    background-color: gray;
+                                    margin-left: 40%;
+                                    font-size: 40px;
+                                    border-top-left-radius: 15px;
+                                    border-top-right-radius: 15px;
+                                    color: white;
+                                    margin-top: 25px;
+                                }
+                                .btn1 button:hover{
+                                    background-color: white;
+                                    color: grey;
+                                }
+#button{
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 30px;
+    margin-left: 42%;
+    margin-top: 5%;
+    background-color: rgb(54, 34, 54);
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 230px;
+
+
+}
+.footerpage{
+    display: flex;
+    background-color: rgb(31, 31, 41);
+    color: white;
+    height: 340px;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-top: 5px;
+
+}
+.footerpage i{
+    border: 1px;
+padding: 5px;    
+}
+.footerpage h1{
+    font-size: 45px;
+}
+.footerpage p{
+    font-size: 20px;
+}
+.you{
+    background-color: rgba(255, 0, 0, 0.781);
+
+}
+.what{
+    background-color: green;
+}
+.link{
+    background-color: blue;
+}
+.insta{
+    background-color: rgb(231, 14, 231);
+}
+#hr1{
+    width: 40%;
+    border: 3px solid black;
+
+    
+}
+#hr2{
+    width: 40%;
+    border: 3px solid black;
+    
+}
+.hr{
+    display: flex;
+    margin-left: 20%;
+}
+.hr i{
+    font-size: 30px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    color: rgb(97, 97, 167);
+}
+.carousel-caption p{
+    color: rgb(97, 97, 167);
+
+}
+.carousel-caption button{
+    background-color: rgb(197, 196, 196);
+    border-radius: 8px;
+}
